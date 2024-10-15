@@ -1,0 +1,60 @@
+:root {
+    --background: #4800f1;
+    --primary: #12b3f3;
+    --pink: #00fff2;
+    --light: #00027a;
+    --white: #fff;
+    --grey: #e7e7e7;
+  }
+  
+  .git-section {
+    min-height: 100vh;
+    background-color: var(--background);
+    padding-top: 100px;
+  }
+  label {
+    font-size: 52px;
+    color: var(--pink);
+  }
+  .img-fluid {
+    border-radius: 50%;
+    width: 100px;
+  }
+  .git-container {
+    border: 2px solid var(--primary);
+  }
+  .git-container h6 {
+    font-size: 15px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  .span {
+    color: var(--primary);
+  }
+  svg {
+    color: var(--white);
+  }
+  .github-link {
+    color: var(--light);
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  .github-link:hover {
+    color: var(--grey);
+    text-decoration: underline;
+    font-size: 15px;
+  }
+  
+  @media (max-width: 578px) {
+    label {
+      font-size: 27px;
+    }
+  }
+  
+  @media (max-width: 1048px) {
+    label {
+      font-size: 37px;
+    }
+  }
